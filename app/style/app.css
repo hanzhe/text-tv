@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Bedstead";
+  src: url("../fonts/bedstead.otf") format("opentype");
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+#screen {
+  display: block;
+  width: 240px;
+  height: 300px;
+  image-rendering: -moz-crisp-edges;
+}
+
+/* Softkey labels in the teletext font, like a row of Fastext keys. */
+#soft {
+  display: flex;
+  height: 20px;
+  padding: 0 4px;
+  align-items: center;
+  justify-content: space-between;
+  color: #fcfe01;
+  font: 10px/20px "Bedstead", monospace;
+}
+
+#status {
+  color: #00c8ee;
+}

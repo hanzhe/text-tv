@@ -1,0 +1,29 @@
+{
+  "name": "Text-TV",
+  "version": "1.0.0",
+  "description": "SVT Text, Sweden's teletext, on the keypad: type a page number and read.",
+  "launch_path": "/index.html",
+  "type": "privileged",
+  "origin": "app://text-tv.hanzhe.dev",
+  "default_locale": "en-US",
+  "categories": ["news"],
+  "orientation": "portrait-primary",
+  "fullscreen": "true",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "developer": {
+    "name": "hanzhe"
+  },
+  "permissions": {},
+  "locales": {
+    "en-US": {
+      "name": "Text-TV",
+      "subtitle": "SVT Text",
+      "description": "SVT Text on the keypad."
+    }
+  }
+}
